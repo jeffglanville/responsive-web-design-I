@@ -292,10 +292,9 @@ hr {
 @media (max-width: 800px){
     nav {
         text-decoration: none;
-        width: 80%;
+        width: 100%;
         display: flex;
         justify-content: space-evenly;
         flex-wrap: nowrap;
     }
-
 }
