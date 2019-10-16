@@ -167,59 +167,75 @@ h5 {
     box-sizing: border-box;
 }
 
-.container {
-    display: inline-block;
-    width: 100%;
-    margin: 5px 5px 5px 20px;
+.container nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 80%;
+    margin-left: 5%;
 }
 
 nav a {
     text-decoration: none;
-    width: 150px;
-    display: inline-block;
-    margin-right: 50px;
+    color: gray;
 }
 
-.logo {
-    width: 15%;
-    margin-left: 65%;
-}
-
-#innovation {
-    display: inline-block;
-    margin-left: 20%;
-    margin-right: 5%;
-    font-family: 'Basher', cursive;
-    font-size: 120px;
-    padding: 100px 0px 50px 0px;
+.innimg {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: center;
+    font-size: 90px;
     text-align: center;
+    padding: 5%;
 }
 
-.img {
-    width: 15%;
-    display: inline-block;
+hr {
+    width: 80%;
+    border: 1px solid black;
+    margin-bottom: 3%;
     margin-left: 5%;
-    margin-right: 5%;
+    /* margin-left: 5%; */
 }
 
-.first-content .feat {
-    display: inline-block;
-    margin-left: 5%;
-    margin-bottom: 1%;
+.innimg img {
+    margin-right: 15%;
+}
+
+#iod {
     width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 19%;
+    margin-top: 5%;
+    margin-right: 15%;
+    font-family: 'Bangers', sans-serif;
 }
 
-.first-content .about {
-    display: inline-block;
+#iod button {
+    width: 62%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    margin-left: 20%;
+    margin-top: 6%;
+    background-color: white;
+    border: 1px solid black;
+    font-size: 16px;
+}
+
+.first-content {
+    display: flex;
+    justify-content: space-between;
     margin-left: 5%;
-    margin-bottom: 1%;
-    width: 30%;
+    margin-bottom: 3%;
+    width: 80%;
 }
 
 .middle-img {
     margin-left: 5%;
     margin-bottom: 1%;
-    width: 90%;
+    width: 80%;
 }
 
 .servs {
@@ -241,60 +257,42 @@ nav a {
 }
 
 .second-content {
-    display: inline-block;
-    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
     margin-left: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
+    margin-top: 2%;
 }
 
 .contact {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     margin-left: 5%;
-    margin-bottom: 1%;
+    margin-bottom: 3%;
     width: 50%;
 }
 
-.main-contact {
-    display: inline-block;
-    margin-bottom: 1%;
-    width: 50%;
-}
-
-.address {
-    display: inline-block;
-    margin-bottom: 1%;
-    width: 50%;
-}
-
-.phone {
-    display: inline-block;
-    margin-bottom: 1%;
-    width: 50%;
-}
-
-.web {
-    display: inline-block;
-    margin-bottom: 1%;
-    width: 50%;
+.contact .phone-web {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    justify-content: space-between;
 }
 
 .copyright {
     display: inline-block;
     margin-left: 50%;
     margin-bottom: 1%;
+    margin-top: 5%;
     width: 50%;
     text-align: center;
 }
 
-button {
-    width: 70%;
-    font-size: 32px;
-}
-
 @media (max-width: 800px){
-    nav a {
+    nav {
         text-decoration: none;
-        width: 100%;
+        width: 80%;
         display: flex;
         justify-content: space-evenly;
         flex-wrap: nowrap;
