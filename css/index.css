@@ -195,7 +195,6 @@ hr {
     border: 1px solid black;
     margin-bottom: 3%;
     margin-left: 5%;
-    /* margin-left: 5%; */
 }
 
 .innimg img {
@@ -290,11 +289,29 @@ hr {
 }
 
 @media (max-width: 800px){
-    nav {
-        text-decoration: none;
-        width: 100%;
+    .container nav {
         display: flex;
-        justify-content: space-evenly;
-        flex-wrap: nowrap;
+        flex-wrap: wrap-reverse;
+        justify-content: flex-start;
+        align-items: center;
+        width: 90%;
+        margin-top: 5%;
+        border: 2px solid red;
+    }
+
+    nav a {
+        margin-left: 5%;
+        border: 2px solid black;
+    }
+
+    .container img {
+        display: flex;
+        align-items: center;
+        border: 2px solid green;
+        margin-left: 30%;
+    }
+
+    .innimg img {
+        display: hidden;
     }
 }
