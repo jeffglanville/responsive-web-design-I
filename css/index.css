@@ -433,6 +433,10 @@ hr {
         padding-bottom: 10%;
     }
 
+    .midimage {
+        padding-bottom: 5%;
+    }
+
     .second-content {
         display: flex;
         flex-direction: column;
