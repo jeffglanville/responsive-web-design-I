@@ -289,25 +289,31 @@ hr {
 }
 
 @media (max-width: 800px){
-    .container nav {
+    .container {
         display: flex;
         flex-wrap: wrap-reverse;
         justify-content: space-evenly;
         align-items: center;
-        width: 80%;
+        width: 100%;
         margin-top: 5%;
     }
 
-    nav a {
-        margin-left: 8%;
+    .container nav {
+        align-items: center;
+        width: 90%;
+        margin-top: 5%;
     }
 
-    .container img {
+    .container nav a {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .container .logo {
         display: flex;
         align-items: center;
         margin-left: 8%;
-        margin-bottom: 5%;
-        width: 20%;
+        width: 25%;
     }
 
     .innimg img {
@@ -326,22 +332,22 @@ hr {
     #iod {
         display: flex;
         justify-content: center;
-        margin-left: 18%;
+        margin-left: 15%;
         align-items: flex-start;
     }
 
     #iod button {
-        width: 170%;
+        width: 175%;
         font-size: 14px;
         margin-top: 10%;
-        margin-left: 60%;
+        margin-left: 55%;
     }
 
     .first-content {
-        width: 70%;
+        width: 90%;
         display: flex;
         justify-content: center;
-        margin-left: 15%;
+        margin-left: 7%;
     }
 
     .first-content .about {
@@ -349,123 +355,33 @@ hr {
     }
 
     hr {
-        width: 70%;
-        margin-left: 15%;
+        width: 90%;
+        margin-left: 7%;
     }
 
     .middle-img {
-        width: 70%;
-        margin-left: 15%;
+        width: 90%;
+        margin-left: 7%;
     }
 
     .second-content {
-        width: 70%;
-        margin-left: 15%;
+        width: 90%;
+        margin-left: 7%;
     }
 
     .contact {
-        width: 70%;
-        margin-left: 15%;
+        width: 90%;
+        margin-left: 7%;
     }
 
     .copyright {
         margin-left: 25%;
+        margin-bottom: 5%;
     }
 }
 
 @media (max-width: 400px) {
 
-    /* .container {
-        display: flex;
-        flex-wrap: nowrap;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        border: 2px solid red;
-    } */
 
-    .container nav {
-        display: flex;
-        align-items: center;
-        flex-direction: column-reverse;
-        flex-wrap: wrap;
-        border: 2px solid blue;
-    }
-
-    nav a {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap-reverse;
-        border: 2px solid blue;
-    }
-
-
-    .innimg {
-        width: 90%;
-        margin-left: 1%;
-    }
-
-    #iod {
-        width: 100%;
-        font-size: 45px;
-    }
-
-    .innimg #iod button {
-        width: 70%;
-        margin-left: 10%;
-    }
-
-    .first-content {
-        width: 80%;
-        border: 2px solid red;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .feat {
-        padding-bottom: 15%;
-        margin-left: 5%;
-    }
-
-    .first-content .about {
-        padding-bottom: 15%;
-        margin-right: 5%;
-    }
-
-    .midimage {
-        padding-bottom: 5%;
-        width: 110%;
-    }
-
-    .second-content {
-        border: 2px solid red;
-        width: 80%;
-        display: flex;
-        flex-direction: column;
-        margin-left: 15%;
-    }
-
-    .servs {
-        padding-bottom: 5%;
-        width: 80%;
-        margin-left: 7%;
-    }
-
-    .prods {
-        padding-bottom: 5%;
-        width: 80%;
-        margin-left: 7%;
-    }
-
-    .vision {
-        padding-bottom: 5%;
-        width: 80%;
-        margin-left: 7%;
-    }
-
-    .copyright {
-        margin-right: 15%;
-    }
 }
 
