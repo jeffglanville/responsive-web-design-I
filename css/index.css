@@ -167,24 +167,35 @@ h5 {
     box-sizing: border-box;
 }
 
+.container {
+    display: flex;
+    padding-top: 5%;
+}
+
 .container nav {
     display: flex;
-    justify-content: space-between;
     flex-wrap: nowrap;
-    width: 80%;
-    margin-left: 5%;
+    justify-content: space-evenly;
+    width: 70%;
+    margin-left: 1%;
+}
+
+.container .logo {
+    padding-left: 1%;
 }
 
 nav a {
     text-decoration: none;
     color: gray;
+    display: flex;
+    padding-right: 1%;
 }
 
 .innimg {
     margin-top: 1%;
     margin-bottom: 1%;
     display: flex;
-    justify-content: center;
+    align-items: center;
     font-size: 90px;
     text-align: center;
     padding: 5%;
@@ -199,28 +210,28 @@ hr {
 
 .innimg img {
     margin-right: 15%;
+    padding-left: 15%;
 }
 
-#iod {
-    width: 30%;
+.innimg #iod {
+    width: 40%;
     display: flex;
     flex-direction: column;
-    margin-left: 19%;
+    align-items: center;
+    justify-content: center;
     margin-top: 5%;
-    margin-right: 15%;
     font-family: 'Bangers', sans-serif;
+    padding-left: 20%;
+    padding-bottom: 5%;
 }
 
-#iod button {
-    width: 62%;
-    height: 10%;
-    display: flex;
-    justify-content: center;
-    margin-left: 20%;
-    margin-top: 6%;
+button {
+    width: 75%;
+    height: 35px;
+    font-size: 18px;
     background-color: white;
     border: 1px solid black;
-    font-size: 16px;
+    margin-top: 5%;
 }
 
 .first-content {
@@ -282,7 +293,7 @@ hr {
 .copyright {
     display: inline-block;
     margin-left: 50%;
-    margin-bottom: 1%;
+    margin-bottom: 8%;
     margin-top: 5%;
     width: 50%;
     text-align: center;
@@ -295,7 +306,7 @@ hr {
         justify-content: space-evenly;
         align-items: center;
         width: 100%;
-        margin-top: 5%;
+        margin-top: 1%;
     }
 
     .container nav {
@@ -312,7 +323,7 @@ hr {
     .container .logo {
         display: flex;
         align-items: center;
-        margin-left: 8%;
+        margin-left: 1%;
         width: 25%;
     }
 
@@ -332,15 +343,15 @@ hr {
     #iod {
         display: flex;
         justify-content: center;
-        margin-left: 15%;
+        margin-left: 50%;
         align-items: flex-start;
     }
 
     #iod button {
-        width: 175%;
+        width: 275%;
         font-size: 14px;
-        margin-top: 10%;
-        margin-left: 55%;
+        margin-top: 35%;
+        margin-left: 5%;
     }
 
     .first-content {
